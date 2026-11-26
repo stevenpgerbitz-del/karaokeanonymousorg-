@@ -1,9 +1,10 @@
 # Karaoke Anonymous — Development Roadmap
 
-Updated November 25, 2026 (Central Time).
+Updated November 26, 2026 (Central Time).
 
 ## Current release
 - Free guest access to trivia and the 10 Steps of Non-Recovery.
+- Published the 20-question humorous self-assessment with five result levels, private in-browser scoring, shareable results and links to Step 1.
 - Local progress, personalized printable certificate, score sharing, friend challenges, and private question reports.
 - Keep the established site branding and compact quiz layout.
 
