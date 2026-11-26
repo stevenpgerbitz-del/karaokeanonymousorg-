@@ -24,8 +24,8 @@ const questions=["Have you ever planned a vacation around karaoke?","Have you ev
 const app=document.querySelector("#app");
 let answers=Array(questions.length).fill(null),i=0,screen="intro";
 function score(){return answers.filter(x=>x===true).length}
-function rank(n){return n===20?"Chief Karaoke Officer":n>=15?"Chronically Unrecoverable":n>=10?"Certified Karaoke Addict":n>=5?"Microphone Dependent":"Social Singer"}
-function verdict(n){return n===20?"Congratulations! You may be qualified to run the entire fellowship.":n>=15?"Recovery is highly unlikely. Your dedication to karaoke is legendary.":n>=10?"Your microphone enthusiasm is officially recognized.":n>=5?"You're developing a healthy appreciation for one more song.":"You're just getting started. There's plenty of room for more karaoke!"}
+function rank(n){return n===20?"Chief Karaoke Fanatic (CKF)":n>=15?"Chronically Unrecoverable":n>=10?"Certified Karaoke Addict":n>=5?"Microphone Dependent":"Social Singer"}
+function verdict(n){return n===20?"Congratulations! You have reached the highest level of karaoke fanaticism. The Chief Karaoke Officer salutes you!":n>=15?"Recovery is highly unlikely. Your dedication to karaoke is legendary.":n>=10?"Your microphone enthusiasm is officially recognized.":n>=5?"You're developing a healthy appreciation for one more song.":"You're just getting started. There's plenty of room for more karaoke!"}
 function shareText(){return "My Karaoke Anonymous assessment: "+score()+"/20 — "+rank(score())+"! Prescribed treatment: More karaoke. https://karaokeanonymous.org/assessment.html #KaraokeAnonymous"}
 function showTop(){app.querySelector("h2")?.focus({preventScroll:true});app.scrollIntoView({block:"start",behavior:"instant"})}
 function start(){answers=Array(questions.length).fill(null);i=0;screen="quiz";render(true)}
