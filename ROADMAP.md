@@ -7,6 +7,7 @@ Updated November 26, 2026 (Central Time).
 - Published the 20-question humorous self-assessment with five result levels, private in-browser scoring, shareable results and links to Step 1.
 - Local progress, personalized printable certificate, score sharing, friend challenges, and private question reports.
 - Keep the established site branding and compact quiz layout.
+- Finish That Song! (KA-006): 100 song-title completion questions, five eras, 25 per round; same challenge/share/report workflow. Published to main, reporting endpoint version 4 supports `finish`; 100 simulated roundtrip tests passed. Live browser and end-to-end report submission still need verification.
 
 ## Future release — shared karaoke ecosystem (Founder approved for roadmap; implementation deferred)
 - [ ] Explore shared Supabase authentication with Addicted to Karaoke (A2K): one member identity across both websites, existing Google and email/password login.
@@ -24,6 +25,7 @@ Updated November 26, 2026 (Central Time).
 | Song Challenge | Master of Musical Obsession |
 | Knowledge Challenge | Doctor of Karaoke (PhK) |
 | One-Hit Wonders | Master of One-Hit Wonders |
+| Finish That Song! | Certified Human Songbook |
 | Future 1980s challenge | Professor of the '80s |
 | Future veteran challenge | Certified Karaoke Dinosaur |
 
